@@ -7,13 +7,12 @@ const connect = function () {
     port: PORT
   });
 
-  conn.on('connect', (data) => {
-    console.log("Succesfully connected to game server");
+  conn.on('connect', () => {
+    console.log("Succesfully connected to game server"); // shows when connected
   });
 
-  conn.on('connect', (data) => {
-    console.log("Name: JHM");
-    // console.log("Move: up");
+  conn.on('connect', () => {
+    console.log("Name: JHM"); // logs player name
   });
   
   conn.on("data", (data) => {
