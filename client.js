@@ -1,4 +1,5 @@
 const net = require("net");
+
 const connect = function () {
   const conn = net.createConnection({
     host: "localhost",
@@ -11,8 +12,8 @@ const connect = function () {
 
   conn.on('connect', (data) => {
     console.log("Name: JHM");
-    console.log("Move: up");
-    console.log("Move: up");
+    // console.log("Move: up");
+    // console.log("Move: up");
   });
   
   conn.on("data", (data) => {
@@ -21,6 +22,12 @@ const connect = function () {
 
   // interpret incoming data as text
   conn.setEncoding("utf8");
+
+  // const handleUserInput = function (key) {
+  //   if (key === '\u0003') {
+  //     process.exit();
+  //   }
+  // };
 
   return conn;
 };
