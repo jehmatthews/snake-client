@@ -11,6 +11,8 @@ const connect = function () {
 
   conn.on('connect', (data) => {
     console.log("Name: JHM");
+    console.log("Move: up");
+    console.log("Move: up");
   });
   
   conn.on("data", (data) => {
