@@ -1,3 +1,5 @@
+const { MOVE_UP, MOVE_LEFT, MOVE_DOWN, MOVE_RIGHT, MESSAGES } = require("./constants");
+
 let connection;
 
 const setupInput = (conn) => {
@@ -15,20 +17,20 @@ const handleUserInput = function (key) {
     process.exit();
   }
   // next logic moves the snake based on keys pressed
-  if (key === 'w') {
+  if (key === MOVE_UP) {
     connection.write('Move: up');
   }
-  if (key === 'a') {
-    connection.write('Move: left')
+  if (key === MOVE_LEFT) {
+    connection.write('Move: left');
   }
-  if (key === 's') {
-    connection.write('Move: down') 
+  if (key === MOVE_DOWN) {
+    connection.write('Move: down');
   }
-  if (key === 'd') {
+  if (key === MOVE_RIGHT) {
     connection.write('Move: right');
   }
-  if (key === 'q') {
-    connection.write('Say: come on!')
+  if (MESSAGES[key]) {
+    connection.write(MESSAGES[key]);
   }
 };
 
