@@ -1,4 +1,4 @@
-const IP = 'localhost';
+const IP = 'localhost'; // all of these constants will be exported to input.js
 const PORT = 3000;
 const MOVE_UP = 'w';
 const MOVE_LEFT = 'a';
