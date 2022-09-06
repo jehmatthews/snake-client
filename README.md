@@ -8,9 +8,9 @@ Before you can run this client, you will need to be running the server side whic
 
 ## Final Product
 
-### Screenshots
+### Screenshot
 
-!["alt text"](https://imgur.com/a/RnYu0bq)
+!["Snake"](https://imgur.com/a/RnYu0bq.png)
 !["Snake in action"](#)
 
 
