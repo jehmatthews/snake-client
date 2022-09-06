@@ -10,7 +10,7 @@ Before you can run this client, you will need to be running the server side whic
 
 ### Screenshot
 
-!["Snake"](https://imgur.com/a/RnYu0bq.png)
+!["Snake"](https://user-images.githubusercontent.com/106930411/188727065-c9a09281-ee69-4b24-96d5-60dd7ba21db5.png)
 !["Snake in action"](#)
 
 
@@ -18,3 +18,5 @@ Before you can run this client, you will need to be running the server side whic
 
 - Follow steps inside the snek server repo to run the server side
 - Run the development snake client using the `node play.js` command.
+
+<img width="1440" alt="snakeinaction" src="https://user-images.githubusercontent.com/106930411/188727065-c9a09281-ee69-4b24-96d5-60dd7ba21db5.png">
