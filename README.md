@@ -10,8 +10,8 @@ Before you can run this client, you will need to be running the server side whic
 
 ### Screenshots
 
-!["alt text"](/jordanmatthews/pictures/snakeinaction.png)
-!["Game being played."](#)
+!["alt text"](https://imgur.com/a/RnYu0bq)
+!["Snake in action"](#)
 
 
 ## Getting Started
