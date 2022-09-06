@@ -10,7 +10,7 @@ Before you can run this client, you will need to be running the server side whic
 
 ### Screenshots
 
-!["Game being played w/ input.js code"](Snake in action.png)
+!["alt text"](/jordanmatthews/pictures/snakeinaction.png)
 !["Game being played."](#)
 
 
